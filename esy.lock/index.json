@@ -1,5 +1,5 @@
 {
-  "checksum": "ab5b8cd310301946f0d3248688e6a03c",
+  "checksum": "b92d4a8a4cc91840ddfea19cf6eeeb06",
   "root": "esy-libass-0.14.0@link-dev:./package.json",
   "node": {
     "fribidi@github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770@d41d8cd9": {
@@ -29,8 +29,39 @@
       },
       "overrides": [],
       "dependencies": [
-        "fribidi@github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770@d41d8cd9"
+        "fribidi@github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770@d41d8cd9",
+        "esy-freetype@github:esy-packages/esy-freetype2#133a36d867b0d5d769ec5c372131c88509144886@d41d8cd9"
       ],
+      "devDependencies": []
+    },
+    "esy-freetype@github:esy-packages/esy-freetype2#133a36d867b0d5d769ec5c372131c88509144886@d41d8cd9": {
+      "id":
+        "esy-freetype@github:esy-packages/esy-freetype2#133a36d867b0d5d769ec5c372131c88509144886@d41d8cd9",
+      "name": "esy-freetype",
+      "version":
+        "github:esy-packages/esy-freetype2#133a36d867b0d5d769ec5c372131c88509144886",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-freetype2#133a36d867b0d5d769ec5c372131c88509144886"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [ "esy-cmake@0.3.5@d41d8cd9" ],
+      "devDependencies": [ "esy-cmake@0.3.5@d41d8cd9" ]
+    },
+    "esy-cmake@0.3.5@d41d8cd9": {
+      "id": "esy-cmake@0.3.5@d41d8cd9",
+      "name": "esy-cmake",
+      "version": "0.3.5",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/esy-cmake/-/esy-cmake-0.3.5.tgz#sha1:2df0bdfe9317fbcded5f463fca1f346464494c7a"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
       "devDependencies": []
     }
   }
