@@ -11,6 +11,8 @@
       ["make", "install"]
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "fribidi": "prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770"
+  },
   "resolutions": {}
 }

@@ -1,7 +1,23 @@
 {
-  "checksum": "0cc961f41dbf4ff5ab5654751a4ba36e",
+  "checksum": "ab5b8cd310301946f0d3248688e6a03c",
   "root": "esy-libass-0.14.0@link-dev:./package.json",
   "node": {
+    "fribidi@github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770@d41d8cd9": {
+      "id":
+        "fribidi@github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770@d41d8cd9",
+      "name": "fribidi",
+      "version":
+        "github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
     "esy-libass-0.14.0@link-dev:./package.json": {
       "id": "esy-libass-0.14.0@link-dev:./package.json",
       "name": "esy-libass-0.14.0",
@@ -12,7 +28,9 @@
         "manifest": "package.json"
       },
       "overrides": [],
-      "dependencies": [],
+      "dependencies": [
+        "fribidi@github:prometheansacrifice/esy-fribidi#22f79841be1425aa28229c84c78f5b83e5126770@d41d8cd9"
+      ],
       "devDependencies": []
     }
   }
